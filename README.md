@@ -1,14 +1,10 @@
 💿 ZeroTrace: The E-Waste Data Sanitization Solution
-ZeroTrace is a secure, cross-platform data wiping application designed to combat India's growing e-waste crisis. Our tool provides a user-friendly, verifiable, and auditable solution for securely erasing data from electronic devices, enabling safe and confident recycling.
-
-<br>
+ZeroTrace is a secure, cross-platform data wiping solution designed to combat India's growing e-waste crisis. Our tool provides a user-friendly, verifiable, and auditable method for securely erasing data from electronic devices, enabling safe and confident recycling.
 
 🚀 The Problem We're Solving
-India generates over 1.75 million tonnes of e-waste annually, but a significant amount of old laptops, smartphones, and other IT assets remain unused or improperly discarded. The primary barrier is the fear of data breaches. Users are concerned that sensitive personal or corporate data can be recovered from their devices, even after a factory reset. This has led to an estimated ₹50,000 crore worth of IT assets being hoarded, obstructing circular economy efforts. Existing solutions are often complex, expensive, or lack verifiable proof of erasure.
+India generates over 1.75 million tonnes of e-waste annually, yet millions of old devices remain unused or improperly discarded. The primary barrier is the fear of data breaches. Users are concerned that sensitive personal or corporate data can be recovered, even after a factory reset. This has led to an estimated ₹50,000 crore worth of IT assets being hoarded, obstructing circular economy efforts. Existing solutions are often complex, expensive, or lack verifiable proof of erasure.
 
 ZeroTrace was built to bridge this gap by providing a simple, trustworthy, and affordable data sanitization tool.
-
-<br>
 
 ✨ Key Features
 Secure Data Erasure: Wipes all user data, including hidden storage areas like HPA/DCO and SSD sectors, ensuring nothing is left behind.
@@ -17,50 +13,50 @@ Verifiable Proof: Generates a digitally signed, tamper-proof wipe certificate in
 
 Intuitive Interface: Features a one-click interface that is easy for the general public to use, removing the technical complexity of data wiping.
 
-Offline Usability: The solution can be used offline, including through a bootable ISO/USB drive, making it accessible in any environment.
+Offline Usability: The solution is bootable and runs completely offline, ensuring no data is ever transmitted during the wiping process.
 
 Third-Party Verification: The generated wipe certificate can be verified by third parties, promoting trust and transparency in IT asset disposal and recycling workflows.
 
 Standards-Compliant: Aligned with the NIST SP 800-88 guidelines, a globally recognized standard for media sanitization.
 
-<br>
-
-📱 Getting Started (Android)
-Our solution is cross-platform, but we've started with Android to address the massive number of smartphones in circulation.
+🖥️ Getting Started (Windows & Linux)
+ZeroTrace is designed as a bootable USB drive, allowing it to bypass the operating system and securely access all storage sectors.
 
 Prerequisites
-An Android device running Android 7.0 or newer.
+A USB drive (minimum 4GB recommended).
 
-A USB-C cable for connecting the device to a computer (optional for some features).
+The ZeroTrace ISO file (download from our Releases Page).
 
-Important: Make sure to back up any data you want to keep. This process is irreversible!
+A computer with Windows or Linux.
 
-Installation
-Download the ZeroTrace Android APK from our official website or GitHub Releases page.
+Creating the Bootable USB
+Download a USB bootable creator tool like Rufus or Etcher.
 
-Install the APK on your device. You may need to enable "Install from unknown sources" in your device's settings.
+Insert your USB drive into your computer.
 
-Launch the ZeroTrace app.
+Open the USB creation tool and select the ZeroTrace ISO file.
 
-<br>
+Choose your USB drive as the destination and click "Start".
 
-📝 Usage
-One-Click Wipe
-Open the ZeroTrace app.
+Wait for the process to complete. You now have a bootable ZeroTrace USB.
 
-Tap the large "One-Click Wipe" button.
+📱 Wiping an Android Device
+To ensure the most secure and thorough wipe, ZeroTrace uses a separate computer to wipe an Android device. This method allows us to bypass Android's security features and access low-level storage.
 
-The app will prompt you to confirm the action and warn you that all data will be permanently deleted.
+Prerequisites
+A Windows or Linux computer.
 
-Confirm the wipe. The process will begin and you'll see a progress bar.
+The Android device to be wiped.
 
-Once complete, a wipe certificate will be generated. You can save this as a PDF or JSON file to your device or share it via email.
+A USB cable to connect the Android device to the computer.
 
-<br>
+The Process
+Boot your computer from the ZeroTrace USB drive.
 
-📜 Technical Details
-ZeroTrace uses a combination of secure overwrite methods to ensure data is irrecoverable. The core of our solution is the data wiping engine, which is compliant with the NIST SP 800-88 standard. The tamper-proof certificate is generated using cryptographic hashing and digital signatures, ensuring its authenticity and integrity.
+Connect your Android device to the computer using a USB cable.
 
-The Android version of ZeroTrace leverages low-level disk access to sanitize hidden and inaccessible partitions, going far beyond a simple factory reset.
+On the ZeroTrace interface, select the connected Android device from the list of detected drives.
 
-<br>
+Confirm the wipe and the process will begin.
+
+Once the wipe is complete, a wipe certificate will be generated on your computer. You can save this as a PDF or JSON file.
