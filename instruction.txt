@@ -1,0 +1,16 @@
+do it carefully
+ALL STEPS ARE MANDATORY
+
+1. switch up your android.
+2. DEVELOPER MODE - go to settings -> about -> search build number -> tap it 7 times...
+3. under DEVELOPER MODE - turn on usb_debugging and OEM_unlocking.
+4. on your laptop - insert the ISO booted pendrive -> go to boot mode in your windows(different option - model specified)
+5. then boot UBUNTU Linux -> make sure to select second option (UBUNTU(safe mode).
+6. close everything appeared in your Linux windows(preparing UBUNTU window).
+7. open terminal -> ctrl + alt + T. 
+8. connect your android device from usb cable(step 3 is mandatory).
+9. type payload in terminal.
+10.read the instruction and give permission to by typing "ERASE EVERYTHING" then another confirmation type "yes"(small letters).
+11.give permission in your android it should say yes or no, give it by using volume buttons.
+12.give one more permission in your android for "LOCK BOOTLOADER" select lock bootloader by volume button.
+13.your data is successfully woped!!
